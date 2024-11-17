@@ -1,0 +1,28 @@
+.logo .logo-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #63b3ed;
+  box-shadow: 0 0 20px rgba(99, 179, 237, 0.5);
+}
+
+.wrapper.spotlight .image {
+  border-radius: unset;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper.spotlight .image img {
+  object-fit: cover;
+  height: 170px;
+  width: 170px;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+span.tech {
+  color: #b7b7b8;
+  font-size: 15px;
+}

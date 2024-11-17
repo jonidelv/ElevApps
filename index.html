@@ -1,42 +1,145 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cotao.dev</title>
-  <link rel="icon" type="image/png" href="./assets/icon.png" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, user-scalable=no"
-  />
-  <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
-<div class="container">
-  <img src="./assets/logo.png" alt="Company Logo" class="logo" width="120" height="120">
-  <h1 class="title">Cotao.dev</h1>
-  <h2 class="subtitle">Transforming Ideas into apps</h2>
-  <p class="description">
-    Discover a curated collection of ready-to-use, AI-powered apps designed to streamline your daily tasks and boost efficiency. Each app is fully functional, intuitive, and available for download your ultimate destination for cutting-edge digital tools.
-  </p>
-  <a class="cta-button" href="mailto:cotao.dev@gmail.com?subject=Support%20from%20Landing">
-    Get Started
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-  </a>
-</div>
-<Footer>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const dateElement = document.querySelector(".date-custom-footer");
-      if (dateElement) {
-        dateElement.textContent = new Date().getFullYear();
-      }
-    });
-  </script>
-  <span class="copyright">
-        &copy; Cotao.dev <span class="date-custom-footer"></span>
-      </span>
-</Footer>
-<script src="./scripts/index.js"></script>
-</body>
+	<head>
+		<title>Cotao.dev</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/png" href="./images/icon.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
+		<meta property="og:image" content="https://cotao.dev/images/logo.png" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo">
+								<img src="./images/logo.png" alt="Company Logo" class="logo-img" width="100" height="100">
+							</div>
+							<h2>Cotao.dev</h2>
+							<p>A collection of apps designed to streamline your daily tasks.</p>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="https://www.backtoit.io/" class="image"><img src="images/backtoit.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Back to it (acq)</h2>
+										<p>All your get back tos stored in one place. Backtoit gives you a fast and easy way to collect, organize, and bookmark any link on the web.
+											<br /> <span class="tech">(Tech: Next, Node, Mongo, Vercel)</span>
+										</p>
+										<a href="https://www.backtoit.io/" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="https://snaptalky.com/" class="image"><img src="images/snaptalky.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Snaptalky</h2>
+										<p>Elevate your conversations with smart replies. Simply share your chat and crafts replies that learn from your responses and adapt to your context.
+											<br /> <span class="tech">(Tech: React Native, Go, Postgres, Digital Ocean)</span>
+										</p>
+										<a href="https://snaptalky.com/" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image disabled"><img src="images/instacalorie.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Instacalorie</h2>
+										<p>Effortlessly track your nutrition with Instacalorie. Simply snap a photo of your meal, and the app instantly analyzes it to count all the calories and macros.
+											<br /> <span class="tech">(Tech: React Native, Go, Postgres, Digital Ocean)</span>
+										</p>
+										<a class="special disabled">Coming soon...</a>
+									</div>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Have questions or feedback? Drop us a line below, and we’ll get back to you as soon as possible.</p>
+							<form action="https://formspree.io/f/xvgoqoyj" method="POST" id="contact-form">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" required maxlength="100"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="copyright">
+								<li>&copy; Cotao.dev all rights reserved.</li><li class="date-custom-footer"></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const dateElement = document.querySelector(".date-custom-footer");
+				if (dateElement) {
+					dateElement.textContent = new Date().getFullYear();
+				}
+			});
+		</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#contact-form').on('submit', function(event){
+					event.preventDefault();
+
+					$.ajax({
+						url: 'https://formspree.io/f/xvgoqoyj',
+						method: 'POST',
+						data: $(this).serialize(),
+						dataType: 'json',
+						success: function(){
+							alert('Your message has been sent successfully!');
+							$('#contact-form')[0].reset();
+						},
+						error: function(){
+							alert('Oops! Something went wrong. Please try again.');
+						}
+					});
+				});
+			});
+		</script>
+	</body>
 </html>
