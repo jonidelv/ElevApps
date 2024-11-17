@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotao.dev</title>
+  <link rel="icon" type="image/png" href="./assets/icon.png" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
+  />
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+<div class="container">
+  <img src="./assets/logo.png" alt="Company Logo" class="logo" width="120" height="120">
+  <h1 class="title">Cotao.dev</h1>
+  <h2 class="subtitle">Transforming Ideas into apps</h2>
+  <p class="description">
+    Got an idea? We’ll help make it real. Create straightforward, user-friendly apps tailored to your needs. No fuss, no jargon—just great apps built to do exactly what you need them to do.
+  </p>
+  <a class="cta-button" href="mailto:cotao.dev@gmail.com?subject=Support%20from%20Landing">
+    Get Started
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+  </a>
+</div>
+<Footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const dateElement = document.querySelector(".date-custom-footer");
+      if (dateElement) {
+        dateElement.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+  <span class="copyright">
+        &copy; Cotao.dev <span class="date-custom-footer"></span>
+      </span>
+</Footer>
+<script src="./scripts/index.js"></script>
+</body>
+</html>
