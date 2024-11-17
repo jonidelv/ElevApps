@@ -26,3 +26,33 @@ span.tech {
   color: #b7b7b8;
   font-size: 15px;
 }
+
+#banner {
+  min-height: 70vh;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper.spotlight .image img {
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .wrapper.spotlight .image {
+    display: inline-block;
+  }
+  .wrapper.spotlight .image img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .wrapper.spotlight .image.custom-right img {
+    margin-left: auto;
+  }
+
+  .wrapper.spotlight .image.custom-left img {
+    margin-right: auto;
+  }
+}
