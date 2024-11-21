@@ -1,3 +1,3 @@
-# Cotao.dev landing
+# ElevApps landing
 
-### This is the landing page for cotao.dev
+### This is the landing page for [elevapps.co](https://elevapps.co/)
