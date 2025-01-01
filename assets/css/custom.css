@@ -1,8 +1,8 @@
 .logo .logo-img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border: 3px solid #4661cd;
+  /*border: 3px solid #4661cd;*/
   background-color: #eeeeee;
 }
 
